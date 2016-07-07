@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (3.4.1)
+  - KFSwiftImageLoader (2.0.1)
+  - MRProgress (0.8.3):
+    - MRProgress/ActivityIndicator (= 0.8.3)
+    - MRProgress/Blur (= 0.8.3)
+    - MRProgress/Circular (= 0.8.3)
+    - MRProgress/Icons (= 0.8.3)
+    - MRProgress/NavigationBarProgress (= 0.8.3)
+    - MRProgress/Overlay (= 0.8.3)
+  - MRProgress/ActivityIndicator (0.8.3):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.8.3):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.3):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.3)
+  - MRProgress/Icons (0.8.3)
+  - MRProgress/NavigationBarProgress (0.8.3):
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Overlay (0.8.3):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.3)
+  - MRProgress/Stopable (0.8.3):
+    - MRProgress/Helper
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4.1)
+  - KFSwiftImageLoader (~> 2.0)
+  - MRProgress
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  KFSwiftImageLoader: a2b8a33a89116c767e7af8d2c109e8c483037b19
+  MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
+
+PODFILE CHECKSUM: 69dcb60ba614d909a640dffa7f91e4cd49693d6f
+
+COCOAPODS: 1.0.0
